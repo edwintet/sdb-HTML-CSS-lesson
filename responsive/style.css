@@ -1,0 +1,23 @@
+body {
+    background-color: #bebebe;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: red;
+}
+
+@media screen and (min-width: 768px) {
+    .nav {
+        position: relative;
+        background-color: blue;
+    }
+}
+
+@media print {
+    .nav {
+        position: relative;
+    }
+}

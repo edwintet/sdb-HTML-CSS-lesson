@@ -1,0 +1,15 @@
+body {
+    background-color: #bebebe;
+}
+
+#pic-from-outside {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+header {
+    height: 75px;
+    width: 300px;
+    background-image: ;
+}

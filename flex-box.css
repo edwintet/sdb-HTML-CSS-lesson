@@ -1,0 +1,32 @@
+body {
+    background-color: #bebebe;
+    border: 2px solid yellow;
+    width: 100vw;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border: 3px solid black;
+    height: 700px;
+}
+
+.flex-item {
+    width: 150px;
+    /* height: 300px; */
+}
+
+.item1 {
+    border: 3px solid red;
+    height: 300px;
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+}
+
+.item2 {
+    border: 3px solid white;
+    height: 450px;
+    align-self: center;
+}

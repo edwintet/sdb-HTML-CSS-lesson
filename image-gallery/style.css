@@ -1,0 +1,50 @@
+body {
+    background-color: brown;
+}
+
+header {
+    border: 3px solid black;
+    margin: 60px;
+    padding: 20px;
+    color: white;
+    background-color: rgb(139, 121, 21);
+    font-size: 60px;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(139, 121, 21);
+    font-size: 40px;
+    border: 3px solid black;
+    text-align: center;
+    margin: 60px;
+    padding: 20px;
+    align-content: space-around;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top {
+    display: block;
+    flex-direction: center;
+    width: 80vw;
+    height: 50vw;
+    margin: 90px;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border: 3px solid black;
+    height: 20vw;
+    width: 30vw;
+}
+
+.toprow {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-content: end;
+}

@@ -1,0 +1,34 @@
+body {
+    background-color: whitesmoke;
+}
+
+header {
+    border: 3px solid blue;
+    margin: 80px;
+    padding: 20px;
+    color: white;
+    background-color: black;
+    font-size: 50px;
+    text-align: center;
+}
+
+.helloImg {
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-right: 80px;
+    float: right;
+
+}
+
+.byeImg {
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-left: 80px;
+    float: left;
+}
+
+section {
+    border: 3px solid none;
+    margin: 80px;
+    padding: 10px;
+}

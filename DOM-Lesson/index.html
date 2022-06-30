@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="list">
+        <h1 id="listTitle">To do List</h1>
+        <div id="toDoList">
+            <ul>
+                <li class="listItem">Clean bathroom</li>
+                <li class="listItem">Pack clothes</li>
+                <li class="listItem">Pack bathrrom stuff</li>
+                <li class="listItem">Check if doors and windows closed</li>
+                <li class="listItem">Clean kitchen</li>
+            </ul>
+        </div>
+    </div>
+    <div id="inputField">
+        <input type="text" id="listInput" placeholder="ToDo Item">
+        <button id="submit">Add Item</button>
+    </div>
+    <a href="http://google.com" class="link">Google</a>
+    <script>
+
+        // Inline scriping
+        /*   function sayName(name) {
+              alert(`Hello, ${name}!`);
+          }
+  
+          sayName("Edwin"); */
+    </script>
+    <!--  External File Scripting -->
+    <script src="app.js">
+
+    </script>
+    <div onclick="alert('outer div')">
+        OUTER DIV
+        <div onclick="alert('inner div')">
+            INNER DIV
+            <p onclick="alert('photograph'); event.stopPropagation()">Paragraph</p>
+        </div>
+    </div>
+    <form action="" method="post">
+        <label for="name">
+            Enter name:
+            <input type="text" name="name">
+        </label>
+        <label for="email">
+            Enter email:
+            <input type="email" name="email">
+        </label>
+        <button class="submit-form">Submit</button>
+    </form>
+
+    <section id="grocery-list">
+        <h1>Search</h1>
+
+    </section>
+    <section id="add-items">
+        <input id="new-item" type="text">
+        <label for="new-item">search item</label>
+        <div>
+            <button id="submit-item">start</button>
+        </div>
+    </section>
+
+
+    <scrip>
+        <!--  // Inline Scripting
+        // function sayName(name) {
+        // alert('Hello, ${name}!`);
+    }
+        // sayName ("Paul")   
+
+-->
+    </scrip>
+    <script src="app.js"></script>
+</body>
+
+</html>
